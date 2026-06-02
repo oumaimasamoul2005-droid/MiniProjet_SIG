@@ -15,12 +15,9 @@ st.write(provinces.crs)
 st.write(communes.crs)
 
 
-liste_regions = regions["libelle_fr"].unique()
+# Région imposée : Fès-Meknès
 
-region_selectionnee = st.selectbox(
-    "Choisir une région",
-    liste_regions
-)
+region_selectionnee = "Fès-Meknès"
 
 st.write("Région choisie :", region_selectionnee)
 
